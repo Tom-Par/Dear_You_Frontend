@@ -63,7 +63,7 @@ If you’re reading this — thank you. You matter.
 
 Wanna help, suggest something, or just send good vibes?
 
-- Open an [issue](https://github.com/your-username/Dear_You/issues) or submit a PR  
+- Open an [issue](https://github.com/Tom-Par/Dear_You/issues) or submit a PR  
 - Reach out via GitHub Discussions or email  
 
 ---
