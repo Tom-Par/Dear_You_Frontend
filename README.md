@@ -1,12 +1,40 @@
-# React + Vite
+# 💌 Dear You
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Dear You** is a gentle, comforting corner of the internet — a place to read and write anonymous letters full of kindness, hope, and encouragement. Whether you're having a great day or a tough one, you're always welcome here.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌸 Features
 
-## Expanding the ESLint configuration
+- 📖 Read anonymous, heartfelt letters from others
+- ✍️ Submit your own letter of love or support
+- 🔐 Moderated — all letters are reviewed before going live
+- 🌍 English-first, with plans for multi-language support
+- 💻 Built with React + Vite (first React project!)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Tech Stack
+
+- **Frontend**: React (with Vite)
+- **Styling**: CSS Modules / Tailwind CSS (TBD)
+- **Routing**: React Router
+- **Backend**: Express (coming soon)
+- **Database**: MongoDB or Firebase (TBD)
+- **Hosting**: Netlify + Render / Vercel
+
+---
+
+## 📦 Setup & Run Locally
+
+```bash
+# clone the repo
+git clone https://github.com/your-username/dear-you.git
+
+cd dear-you
+
+# install dependencies
+npm install
+
+# start dev server
+npm run dev
