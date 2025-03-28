@@ -1,0 +1,41 @@
+/* Home.css */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 2rem;
+    text-align: center;
+    background: #fdf6f0;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .heading {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .subheading {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #666;
+    max-width: 600px;
+  }
+  
+  .button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 999px;
+    background-color: #ffb6b6;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+    .button:hover {
+        background-color: #ff7f7f;
+    }
+  
