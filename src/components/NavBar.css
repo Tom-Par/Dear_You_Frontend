@@ -1,0 +1,45 @@
+/* src/components/NavBar.css */
+.navbar {
+    background: #fdf6f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #666;
+    transition: color 0.3s ease;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .nav-links li a:hover,
+  .nav-links li a.active {
+    color: #ffb6b6;
+  }
+  

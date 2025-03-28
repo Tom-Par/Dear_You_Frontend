@@ -1,11 +1,21 @@
+// src/App.jsx
 import { Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
+import NavBar from './components/NavBar';
+import StickyNotes from './pages/StickyNotes';
+import Letters from './pages/Letters';
+import SelfCare from './pages/SelfCare';
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-    </Routes>
+    <>
+      <NavBar />
+      <Routes>
+        <Route path="/sticky-notes" element={<StickyNotes />} />
+        <Route path="/letters" element={<Letters />} />
+        <Route path="/self-care" element={<SelfCare />} />
+        <Route path="/" element={<SelfCare />} />  {/* default landing page */}
+      </Routes>
+    </>
   );
 }
 
