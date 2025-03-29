@@ -1,0 +1,54 @@
+/* src/pages/StickyNotes.css */
+.sticky-notes-page {
+    padding: 2rem;
+    background: #fdf6f0;
+    text-align: center;
+    font-family: "Segoe UI", sans-serif;
+    color: #333;
+    height: 100vh;
+  }
+  
+  .sticky-notes-page h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .sticky-notes-page p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .notes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+
+  }
+  
+  .sticky-note {
+    background: #fff8b5; /* Light yellow sticky note background */
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transform: rotate(-2deg); /* Gives a playful, hand-posted feel */
+  }
+
+    .sticky-note:hover {
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        transform: rotate(0deg); /* Straighten on hover */
+        transition: all 0.3s ease;
+    }
+  
+  .note-text {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .note-author {
+    font-size: 1rem;
+    color: #555;
+    text-align: right;
+  }
+  
