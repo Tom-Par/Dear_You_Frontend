@@ -1,5 +1,6 @@
 // src/pages/SelfCare.jsx
 import "./SelfCare.css";
+import MoodTracker from "../components/MoodTracker";
 
 function SelfCare() {
   return (
@@ -9,6 +10,8 @@ function SelfCare() {
         Sometimes life gets tough. Remember, you are not alone. Here are some
         resources and exercises to help you through difficult moments.
       </p>
+
+      <MoodTracker />
 
       <section className="section">
         <h2>Breathing Exercise</h2>
