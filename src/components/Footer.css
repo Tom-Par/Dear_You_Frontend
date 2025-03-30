@@ -1,0 +1,11 @@
+/* src/components/Footer.css */
+.footer {
+    background: #fdf6f0;
+    text-align: center;
+    padding: 1rem 2rem;
+    font-family: "Segoe UI", sans-serif;
+    color: #666;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 0.5rem;
+  }
+  
