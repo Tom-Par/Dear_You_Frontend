@@ -1,14 +1,15 @@
 # 💌 Dear You
 
-**Dear You** is a gentle, comforting corner of the internet — a place to read and write anonymous letters full of kindness, hope, and encouragement. Whether you're having a great day or a tough one, you're always welcome here.
+**Dear You** is a gentle, comforting corner of the internet — a place to read and write anonymous messages of kindness, hope, and encouragement. Whether you're having a great day or a tough one, you're always welcome here.
 
 ---
 
 ## 🌸 Features
 
-- 📖 Read anonymous, heartfelt letters from others
-- ✍️ Submit your own letter of love or support
-- 🔐 Moderated — all letters are reviewed before going live
+- **Sticky Notes:** Read uplifting, short notes from strangers (after moderation)
+- **Letters:** Explore heartfelt, longer messages of support and love
+- **Self Care:** Access resources like breathing exercises, a mood tracker, and helpful self care tips
+- ✍️ Submit your own note or letter (content is reviewed before going live)
 - 🌍 English-first, with plans for multi-language support
 - 💻 Built with React + Vite (first React project!)
 
@@ -16,12 +17,12 @@
 
 ## 🚀 Tech Stack
 
-- **Frontend**: React (with Vite)
-- **Styling**: CSS Modules / Tailwind CSS (TBD)
-- **Routing**: React Router
-- **Backend**: Express (coming soon)
-- **Database**: MongoDB or Firebase (TBD)
-- **Hosting**: Netlify + Render / Vercel
+- **Frontend:** React (with Vite)
+- **Styling:** CSS Modules / Tailwind CSS (TBD)
+- **Routing:** React Router
+- **Backend:** Express (coming soon)
+- **Database:** MongoDB or Firebase (TBD)
+- **Hosting:** Netlify + Render / Vercel
 
 ---
 
@@ -44,8 +45,8 @@ npm run dev
 
 ## 🌱 What's Coming Next
 
-- 🔐 Admin panel for moderating letters  
-- 📬 Backend API for storing letters  
+- 🔐 Admin panel for moderating letters and notes  
+- 📬 Backend API for storing submissions  
 - 📝 Auth system for private journals (maybe)  
 - 🇵🇱 Polish translation  
 - 🎨 UI/UX glow-up  
@@ -63,7 +64,7 @@ If you’re reading this — thank you. You matter.
 
 Wanna help, suggest something, or just send good vibes?
 
-- Open an [issue](https://github.com/Tom-Par/Dear_You/issues) or submit a PR  
+- Open an issue or submit a PR  
 - Reach out via GitHub Discussions or email  
 
 ---
