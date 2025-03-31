@@ -1,0 +1,12 @@
+/* src/App.css */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #fdf6f0;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  

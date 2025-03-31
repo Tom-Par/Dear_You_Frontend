@@ -5,19 +5,22 @@ import StickyNotes from './pages/StickyNotes';
 import Letters from './pages/Letters';
 import SelfCare from './pages/SelfCare';
 import Footer from './components/Footer';
+import './App.css';
 
 function App() {
   return (
-    <>
+    <div className="app-container">
       <NavBar />
-      <Routes>
-        <Route path="/sticky-notes" element={<StickyNotes />} />
-        <Route path="/letters" element={<Letters />} />
-        <Route path="/self-care" element={<SelfCare />} />
-        <Route path="/" element={<SelfCare />} />
-      </Routes>
+      <div className="content">
+        <Routes>
+          <Route path="/sticky-notes" element={<StickyNotes />} />
+          <Route path="/letters" element={<Letters />} />
+          <Route path="/self-care" element={<SelfCare />} />
+          <Route path="/" element={<StickyNotes />} />
+        </Routes>
+      </div>
       <Footer />
-    </>
+    </div>
   );
 }
 
