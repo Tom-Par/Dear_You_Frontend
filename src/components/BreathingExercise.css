@@ -1,0 +1,59 @@
+/* src/components/BreathingExercise.css */
+.breathing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 1rem;
+  }
+  
+  .breathing-circle {
+    width: 100px;
+    height: 100px;
+    background-color: #ffb6b6;
+    border-radius: 50%;
+    animation: breathe 19s infinite ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .circle-content {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .phase-text {
+    font-size: 1rem;
+  }
+  
+  .timer-text {
+    font-size: 0.8rem;
+  }
+  
+  .breathing-label {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  /* Keyframes based on a 4-7-8 breathing pattern */
+  @keyframes breathe {
+    0% {
+      transform: scale(1);
+    }
+    21% { /* Inhale (4/19 ≈ 21%) */
+      transform: scale(1.5);
+    }
+    58% { /* Hold (additional 7 seconds) */
+      transform: scale(1.5);
+    }
+    100% { /* Exhale (final 8 seconds) */
+      transform: scale(1);
+    }
+  }
+  

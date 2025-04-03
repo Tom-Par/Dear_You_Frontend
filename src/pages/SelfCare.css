@@ -1,56 +1,54 @@
 /* src/pages/SelfCare.css */
 .self-care-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
   text-align: center;
   background: #fdf6f0;
-  font-family: "Segoe UI", sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   color: #333;
 }
 
 .self-care-wrapper h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
-  color: #333;
 }
 
 .self-care-wrapper p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 2rem;
-  color: #666;
-  max-width: 600px;
 }
 
-.section {
-  width: 100%;
-  max-width: 600px;
+.breathing-exercise,
+.mood-tracker-section,
+.resources {
+  margin-top: 2rem;
+  padding: 1rem;
   background: #fff;
-  padding: 1.5rem;
-  margin: 1rem 0;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
-.section h2 {
+.breathing-exercise h2,
+.mood-tracker-section h2,
+.resources h2 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
   color: #333;
 }
 
-.section p,
-.section ul {
+.breathing-exercise p,
+.resources ul {
   font-size: 1.2rem;
   line-height: 1.6;
   color: #666;
 }
 
-.section ul {
+.resources ul {
   list-style: none;
   padding: 0;
 }
 
-.section li {
+.resources li {
   margin-bottom: 0.5rem;
 }
