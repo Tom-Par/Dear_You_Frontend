@@ -127,3 +127,22 @@
   display: flex;
   gap: 0.5rem;
 }
+
+/* Add this to your StickyNotes.css */
+.open-modal-btn {
+  margin: 1rem auto;
+  display: block;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  background: #ffb6b6;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.open-modal-btn:hover {
+  background: #ff9b9b;
+}
+
