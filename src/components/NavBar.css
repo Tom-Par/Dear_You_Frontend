@@ -19,7 +19,7 @@
     font-size: 1.5rem;
     font-weight: bold;
     color: #333;
-    font-family: "Segoe UI", sans-serif;
+
   }
   
   .nav-links {
@@ -35,7 +35,7 @@
     font-size: 1.2rem;
     color: #666;
     transition: color 0.3s ease;
-    font-family: "Segoe UI", sans-serif;
+
   }
   
   .nav-links li a:hover,

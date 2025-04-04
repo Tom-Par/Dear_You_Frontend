@@ -10,13 +10,7 @@
   flex: 1;
 }
 
-body {
-  font-family: "Shadows Into Light"; /* or your preferred font */
-  margin: 0;
-  padding: 0;
-}
-
-/* Optional: set fonts for headings separately */
+body,
 h1,
 h2,
 h3,
@@ -27,3 +21,6 @@ p,
 button {
   font-family: "Patrick Hand", cursive;
 }
+
+/* Optional: set fonts for headings separately */
+
