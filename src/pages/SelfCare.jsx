@@ -1,6 +1,8 @@
+// src/pages/SelfCare.jsx
 import './SelfCare.css';
 import BreathingExercise from '../components/BreathingExercise';
 import MoodTracker from '../components/MoodTracker';
+import HelpfulResources from '../components/HelpfulResources';
 
 function SelfCare() {
   return (
@@ -15,31 +17,18 @@ function SelfCare() {
         <h2>Breathing Exercise</h2>
         <BreathingExercise />
         <p>
-          Try this simple breathing cycle:<br/> 
-          inhale for 4 seconds, hold for 7, and exhale for 8. <br/>
+          Try this simple 4–7–8 breathing cycle: inhale for 4 seconds, hold for 7, and exhale for 8. 
           Repeat until you feel more at ease.
         </p>
       </section>
       
       <section className="mood-tracker-section">
         <h2>How Are You Feeling?</h2>
-        {/* Our simplified MoodTracker without a second heading/card */}
         <MoodTracker />
       </section>
       
-      <section className="resources">
-        <h2>Helpful Resources</h2>
-        <ul>
-          <li>
-            Mental Health Hotline: <a href="tel:1234567890">123-456-7890</a>
-          </li>
-          <li>
-            Local Support &amp; Information: <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">Click Here</a>
-          </li>
-          <li>
-            Visit <a href="https://www.nami.org" target="_blank" rel="noopener noreferrer">NAMI</a> for more mental health resources.
-          </li>
-        </ul>
+      <section className="resources-section">
+        <HelpfulResources />
       </section>
     </div>
   );

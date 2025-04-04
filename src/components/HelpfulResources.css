@@ -1,0 +1,59 @@
+/* src/components/HelpfulResources.css */
+.helpful-resources {
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    max-width: 800px;
+    text-align: left;
+  }
+  
+  .helpful-resources h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .helpful-resources ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .resource-item {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .resource-item a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    transition: color 0.3s ease;
+  }
+  
+  .resource-item a:hover {
+    color: #ffb6b6;
+  }
+  
+  .resource-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .resource-item p {
+    font-size: 1rem;
+    margin: 0;
+    color: #666;
+  }
+  
+  .disclaimer {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #999;
+    text-align: center;
+  }
+  
