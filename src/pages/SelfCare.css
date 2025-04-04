@@ -19,7 +19,7 @@
   margin-bottom: 2rem;
 }
 
-.breathing-exercise,
+.breathing-exercise-section,
 .mood-tracker-section,
 .resources {
   margin-top: 2rem;
@@ -29,19 +29,12 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
-.breathing-exercise h2,
+.breathing-exercise-section h2,
 .mood-tracker-section h2,
 .resources h2 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
   color: #333;
-}
-
-.breathing-exercise p,
-.resources ul {
-  font-size: 1.2rem;
-  line-height: 1.6;
-  color: #666;
 }
 
 .resources ul {

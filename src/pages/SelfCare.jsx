@@ -1,7 +1,6 @@
-// src/pages/SelfCare.jsx
 import './SelfCare.css';
-import MoodTracker from '../components/MoodTracker';
 import BreathingExercise from '../components/BreathingExercise';
+import MoodTracker from '../components/MoodTracker';
 
 function SelfCare() {
   return (
@@ -16,13 +15,15 @@ function SelfCare() {
         <h2>Breathing Exercise</h2>
         <BreathingExercise />
         <p>
-          Try this simple breathing exercise: Inhale for 4 seconds, hold for 7 seconds, and exhale for 8 seconds. 
+          Try this simple breathing cycle:<br/> 
+          inhale for 4 seconds, hold for 7, and exhale for 8. <br/>
           Repeat until you feel more at ease.
         </p>
       </section>
       
       <section className="mood-tracker-section">
         <h2>How Are You Feeling?</h2>
+        {/* Our simplified MoodTracker without a second heading/card */}
         <MoodTracker />
       </section>
       
