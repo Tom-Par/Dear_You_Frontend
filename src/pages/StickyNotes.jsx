@@ -23,7 +23,8 @@ function StickyNotes() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (newNote.trim() === '') return;
-    const newId = notes.length ? notes[0].id + 1 : 1;
+    // Date.now() to generate a unique id
+    const newId = Date.now();
     const note = {
       id: newId,
       text: newNote,

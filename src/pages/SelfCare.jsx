@@ -17,7 +17,7 @@ function SelfCare() {
         <h2>Breathing Exercise</h2>
         <BreathingExercise />
         <p>
-          Try this simple 4–7–8 breathing cycle: inhale for 4 seconds, hold for 7, and exhale for 8. 
+          Try this simple breathing cycle: inhale for 4 seconds, hold for 7, and exhale for 8. 
           Repeat until you feel more at ease.
         </p>
       </section>
