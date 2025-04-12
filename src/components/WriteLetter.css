@@ -1,0 +1,38 @@
+/* src/components/WriteLetter.css */
+.write-letter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .write-letter-form h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .write-letter-form input,
+  .write-letter-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .write-letter-form button {
+    padding: 0.7rem;
+    background: #ffb6b6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .write-letter-form button:hover {
+    background: #ff9b9b;
+  }
+  
