@@ -1,59 +1,57 @@
 /* src/components/BreathingExercise.css */
 .breathing-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.breathing-circle {
+  width: 100px;
+  height: 100px;
+  background-color: #ffb6b6;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.breathing-circle.active {
+  animation: breathe 19s infinite ease-in-out;
+}
+
+.circle-content {
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+.phase-text {
+  font-size: 1rem;
+}
+
+.timer-text {
+  font-size: 0.8rem;
+}
+
+/* Breathing animation following a 4-7-8 cycle */
+@keyframes breathe {
+  0% {
+    transform: scale(1);
   }
-  
-  .breathing-circle {
-    width: 100px;
-    height: 100px;
-    background-color: #ffb6b6;
-    border-radius: 50%;
-    animation: breathe 19s infinite ease-in-out;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 1rem;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  21% { /* Inhale for about 4 seconds (21% of 19s) */
+    transform: scale(1.5);
   }
-  
-  .circle-content {
-    position: absolute;
-    text-align: center;
-    color: #fff;
-    font-weight: bold;
+  58% { /* Hold for about 7 seconds (additional 37%) */
+    transform: scale(1.5);
   }
-  
-  .phase-text {
-    font-size: 1rem;
+  100% { /* Exhale for about 8 seconds (final 42%) */
+    transform: scale(1);
   }
-  
-  .timer-text {
-    font-size: 0.8rem;
-  }
-  
-  .breathing-label {
-    font-size: 1.2rem;
-    color: #333;
-  }
-  
-  /* Keyframes based on a 4-7-8 breathing pattern */
-  @keyframes breathe {
-    0% {
-      transform: scale(1);
-    }
-    21% { /* Inhale (4/19 ≈ 21%) */
-      transform: scale(1.5);
-    }
-    58% { /* Hold (additional 7 seconds) */
-      transform: scale(1.5);
-    }
-    100% { /* Exhale (final 8 seconds) */
-      transform: scale(1);
-    }
-  }
-  
+}
