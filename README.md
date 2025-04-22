@@ -30,7 +30,7 @@
 
 ```bash
 # clone the repo
-git clone https://github.com/your-username/Dear_You.git
+git clone https://github.com/Tom-Par/Dear_You.git
 
 # move into the project folder
 cd Dear_You
