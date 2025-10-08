@@ -6,21 +6,21 @@ function HelpfulResources() {
   const resources = [
     {
       id: 1,
+      title: "Find a Helpline",
+      link: "https://findahelpline.com",
+      description: "Locate help and support in your area across Europe and beyond."
+    },
+    {
+      id: 2,
       title: "European Emergency Number",
       link: "tel:112",
       description: "Dial 112 for immediate emergency assistance across Europe."
     },
     {
-      id: 2,
+      id: 3,
       title: "National Alliance on Mental Illness (NAMI)",
       link: "https://www.nami.org",
       description: "Visit NAMI for comprehensive mental health resources and support."
-    },
-    {
-      id: 3,
-      title: "Find a Helpline",
-      link: "https://findahelpline.com",
-      description: "Locate help and support in your area across Europe and beyond."
     }
   ];
 
