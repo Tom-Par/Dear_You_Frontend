@@ -2,45 +2,48 @@
 
 **Dear You** is a gentle, comforting corner of the internet — a place to read and write anonymous messages of kindness, hope, and encouragement. Whether you're having a great day or a tough one, you're always welcome here.
 
+
+🟢 **Live site:** [Dear You](https://dear-you-letter.vercel.app/)
 ---
 
 ## 🌸 Features
 
-- **Sticky Notes:** Read uplifting, short notes from strangers (after moderation)
-- **Letters:** Explore heartfelt, longer messages of support and love
-- **Self Care:** Access resources like breathing exercises, a mood tracker, and helpful self care tips
-- ✍️ Submit your own note or letter (content is reviewed before going live)
-- 🌍 English-first, with plans for multi-language support
+- 📝 **Sticky Notes:** Read uplifting, short notes from strangers (after moderation)  
+- 💌 **Letters:** Explore heartfelt, longer messages of support and love  
+- 💖 **Self Care:** Access resources like breathing exercises, a mood tracker, and helpful self-care tips  
+- ✍️ Submit your own note or letter (content is reviewed before going live)  
+- 🌍 English-first, with plans for multi-language support  
 - 💻 Built with React + Vite (first React project!)
 
 ---
 
 ## 🚀 Tech Stack
 
-- **Frontend:** React (with Vite)
-- **Styling:** CSS Modules / Tailwind CSS (TBD)
-- **Routing:** React Router
-- **Backend:** Express (coming soon)
-- **Database:** MongoDB or Firebase (TBD)
-- **Hosting:** Netlify + Render / Vercel
+- **Frontend:** React (with Vite)  
+- **Styling:** CSS Modules / Tailwind CSS (TBD)  
+- **Routing:** React Router  
+- **Backend:** Express (Node.js)  
+- **Database:** MongoDB Atlas  
+- **Hosting:** Vercel (frontend) + Render (backend)
 
 ---
 
 ## 📦 Setup & Run Locally
 
 ```bash
-# clone the repo
-git clone https://github.com/Tom-Par/Dear_You.git
+# Clone the repo
+git clone https://github.com/Tom-Par/Dear_You_Frontend.git
 
-# move into the project folder
-cd Dear_You
+# Move into the project folder
+cd Dear_You_Frontend
 
-# install dependencies
+# Install dependencies
 npm install
 
-# start dev server
+# Start dev server
 npm run dev
 ```
+
 ---
 
 ## 🌱 What's Coming Next
